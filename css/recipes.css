@@ -15,20 +15,18 @@ body::before {
     content: "";
     position: fixed;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.75); /* 0.6 = 60% opacity */
+    background-color: rgba(0, 0, 0, 0.75); 
     z-index: -1;
 }
 
 a {
-    color: #ff6600; /* any color you want */
+    color: #ff6600; 
 }
 
-/* Link when hovered */
 a:hover {
     color: #ffcc00;
 }
 
-/* Link that has been visited */
 a:visited {
     color: #ecff44;
 }
