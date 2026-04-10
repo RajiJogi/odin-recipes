@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA5L3BkbWlzYzNiYXRjaDItbWlhNjAwMjAtaW1hZ2VfMS5qcGc.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.75); /* 0.6 = 60% opacity */
+    z-index: -1;
+}
+
+a {
+    color: #ff6600; /* any color you want */
+}
+
+/* Link when hovered */
+a:hover {
+    color: #ffcc00;
+}
+
+/* Link that has been visited */
+a:visited {
+    color: #ecff44;
+}
