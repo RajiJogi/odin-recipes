@@ -20,13 +20,13 @@ body::before {
 }
 
 a {
-    color: #ff6600; 
+    color: #ecff44;; 
 }
 
 a:hover {
-    color: #ffcc00;
+    color: #eeb702;
 }
 
 a:visited {
-    color: #ecff44;
+    color: #fd7215
 }
